@@ -22,7 +22,7 @@ jobs:
       - checkout
       # specify any bash command here prefixed with `run: `
       - run: make dependencies
-      - run: go test -v ./...
+      - run: go test -v ./password
       - run: make
       - store_artifacts:
-          path: bin/
+          path: ../bin/
