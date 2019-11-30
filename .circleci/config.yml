@@ -24,4 +24,7 @@ jobs:
       - run: make dependencies
       - run: make
       - store_artifacts:
-          path: ../bin/
+          path: rollpwd.zip
+
+    # 277ff7ca78d1c524fa0c2069d5755dc34f7e4909
+    # curl https://circleci.com/api/v1.1/project/:github/:RajaSrinivasan/:rollpwd/latest/artifacts?circle-token=:277ff7ca78d1c524fa0c2069d5755dc34f7e4909
