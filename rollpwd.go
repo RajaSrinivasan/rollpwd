@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"./password"
-	"./salt"
+	"github.com/RajaSrinivasan/rollpwd/password"
+	"github.com/RajaSrinivasan/rollpwd/salt"
 	"github.com/spf13/pflag"
 )
 
